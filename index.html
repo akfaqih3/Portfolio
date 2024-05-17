@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akram Qasem</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+   <div class="container">
+        <video src="video-loop.mp4" class="video_loop" autoplay loop>
+            
+        </video>
+        <header class="header">
+            <label for="toggle_input" class="toggle_label">
+                <div class="burger-menu__bar"></div>
+                <div class="burger-menu__bar"></div>
+                <div class="burger-menu__bar"></div>
+              </label>
+                <input type="checkbox"  name="toggle_input" id="toggle_input" class="toggle_input">
+
+            <nav class="navigation">
+                <ul class="navigation_list">
+                    <li class="navigation_item"><a href="#Bio" class="navigation_link">Bio</a></li>
+                    <li class="navigation_item"><a href="#Skills" class="navigation_link">Skills</a></li>
+                    <li class="navigation_item"><a href="#Projects" class="navigation_link">Projects</a></li>
+                    <li class="navigation_item"><a href="#Contact" class="navigation_link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="logo"><a href="#" class="logo_link">AkramQasem</a></div>
+        </header>
+
+        <main id="Bio" class="Bio">
+            <div class="Bio_data">
+                <h1 class="Bio_heading">Hello I'm <span>Akram</span>, Full-Stack developer.</h1>
+                <p class="Bio_content">I implement user interface design and solve user problems with HTML, CSS AND Javascript.</p>
+                <button type="submit" class="lets_talk">Let's Talk</button>
+            </div>
+            
+            <section class="cv">
+                <div class="cv_main">
+                    <div class="cv_img">
+                        <img src="./images/AkramQasem.png"  alt="">
+                    </div>
+                    <h3 class="cv_name">Akram Qasem</h3>
+                    <h3 class="cv_job">Full-Stack devloper</h3>
+                </div>
+                <div class="cv_desc">
+                    <div class="cv_info">
+                        <img src="./style/icon/mail.svg" alt="" class="cv_info_img">
+                        <h5 class="mail">akfaqih3@gmail.com</h5>
+                    </div>
+                    <div class="cv_info">
+                        <img src="./style/icon/location-dot.svg" alt="" class="cv_info_img">
+                        <h5 class="locaion">Yemen</h5>
+                    </div>
+                    <div class="cv_info">
+                        <img src="./style/icon/bag.svg" alt="" class="cv_info_img">
+                        <h5 class="time">Part-time/Freelancer</h5>
+                    </div>
+                    <div class="cv_info">
+                        <img src="./style/icon/web.svg" alt="" class="cv_info_img">
+                        <h5 class="website">www.akfaqih.com</h5>
+                    </div>
+                </div>
+                <div class="cv_skills">
+                    <p class="cv_skill">HTML</p>
+                    <p class="cv_skill">CSS</p>
+                    <p class="cv_skill">JS</p>
+                    <p class="cv_skill">Django</p>
+                </div>
+                <button type="submit" class="cv_download">Download CV</button>
+            </section>
+        </main>
+
+        <section id="Skills" class="Skills section-bg">
+            <h2 class="heading">My <span>Skills</span></h2>
+           <div class="blocks">
+            <div class="skill_block">
+                <h3>Conding</h3>
+                <div class="block">
+                    <div class="progress">
+                        <div class="progress_title">
+                            <label for="HTML">HTML</label><P>90%</P>
+                        </div>
+                        <progress id="HTML" value="90" max="100"></progress>
+                    </div>
+                    <div class="progress">
+                        <div class="progress_title">
+                            <label for="HTML">CSS</label><P>85%</P>
+                        </div>
+                        <progress id="HTML" value="85" max="100"></progress>
+                    </div>
+                    <div class="progress">
+                        <div class="progress_title">
+                            <label for="HTML">JS</label><P>80%</P>
+                        </div>
+                        <progress id="HTML" value="80" max="100"></progress>
+                    </div>
+                    <div class="progress">
+                        <div class="progress_title">
+                            <label for="HTML">Python</label><P>95%</P>
+                        </div>
+                        <progress id="HTML" value="95" max="100"></progress>
+                    </div>
+                </div>
+            </div>
+            <div class="skill_block">
+                <h3>Technology</h3>
+                <div class="block">
+                    <div class="progress">
+                        <div class="progress_title">
+                            <label for="HTML">Web Design</label><P>80%</P>
+                        </div>
+                        <progress id="HTML" value="80" max="100"></progress>
+                    </div>
+                    <div class="progress">
+                        <div class="progress_title">
+                            <label for="HTML">Web Development</label><P>85%</P>
+                        </div>
+                        <progress id="HTML" value="85" max="100"></progress>
+                    </div>
+                    <div class="progress">
+                        <div class="progress_title">
+                            <label for="HTML">Bootstrap</label><P>70%</P>
+                        </div>
+                        <progress id="HTML" value="70" max="100"></progress>
+                    </div>
+                    <div class="progress">
+                        <div class="progress_title">
+                            <label for="HTML">Django</label><P>73%</P>
+                        </div>
+                        <progress id="HTML" value="73" max="100"></progress>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </section>
+
+        <section id="Projects" class="Projects section">
+            <h2 class="heading">My <span>Projects</span></h2>
+            <div class="cards">
+               <a href="#">
+                <div class="card">
+                    <img src="./images/POS.png" alt="" class="card_img">
+                    <div class="card_info">
+                        <h3 class="card_name">POS System</h3>
+                        <p class="card_desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea error odio neque vero dolor illum fugiat alias quibusdam, animi aut pariatur similique delectus sint placeat exercitationem! Amet, temporibus explicabo. Project by html,css and js with  django framework this project is a system of stores and sales management.</p>
+                       
+                    </div>
+                    
+                </div>
+               </a>
+               <a href="#">
+                <div class="card">
+                    <img src="./images/POS.png" alt="" class="card_img">
+                    <div class="card_info">
+                        <h3 class="card_name">POS System</h3>
+                        <p class="card_desc">Project by html,css and js with  django framework this project is a system of stores and sales management.</p>
+                       
+                    </div>
+                    
+                </div>
+               </a>
+            </div>
+        </section>
+
+        <section id="Contact" class="Contact section-bg">
+            <h2 class="heading">Contact <span>me!</span></h2>
+            <form action="#" class="Contact_form">
+                <input type="text" name="" id="">
+                <input type="text" name="" id="">
+                <input type="email" name="" id="">
+                <input type="tel" name="" id="">
+                <input type="text" name="desc" id="desc">
+                <button type="submit" class="Contact_send">Send</button>
+            </form>
+        </section>
+
+        <footer class="footer section">
+            <div class="logo">
+                <h3 class="">AkramQasem</h3>
+                <hr class="line">
+            </div>
+            
+            <div class="footer_bio">
+                <p>I always strive to develop my skills, increase my experience, and Up to Date with Everything in my work</p>
+            </div>
+            <div class="footer_contact">
+                <p class="phone"><span><i></i></span>|00967773021448</p>
+            </div>
+            <div class="social_media">
+                <a href="#"><img class="svgg" src="./style/icon/linkedin.svg" alt=""></a>
+                <a href="#"><img src="./style/icon/twitter.svg" alt=""></a>
+                <a href="#"><img src="./style/icon/facebook.svg" alt=""></a>
+            </div>
+        
+            <div class="copyright">
+                <p>2024 copyright by <span>Akram Qasem</span></p>
+            </div>
+        </footer>
+   </div>
+</body>
+</html>
