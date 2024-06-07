@@ -10,7 +10,7 @@
 <body>
    
    <div class="container">
-        <video src="video-loop.mp4" class="video_loop" autoplay loop>
+        <video src="video-loop.mp4" class="video_loop" autoplay loop muted>
             
         </video>
         <header class="header">
@@ -30,14 +30,18 @@
                 </ul>
             </nav>
             
-            <div class="logo"><a href="#" class="logo_link">AkramQasem</a></div>
+            <div class="logo"><a href="#" class="logo_link"><img src="images/logo.png" width="36" alt="Ak logo"></a></div>
         </header>
 
         <main id="Bio" class="Bio">
             <div class="Bio_data">
-                <h1 class="Bio_heading">Hello I'm <span>Akram</span>, Full-Stack developer.</h1>
-                <p class="Bio_content">I implement user interface design and solve user problems with HTML, CSS AND Javascript.</p>
-                <button type="submit" class="lets_talk">Let's Talk</button>
+                <h1 class="Bio_heading">Hello I'm <span>Akram</span>, Software Engineer.</h1>
+                <p class="Bio_content">
+                    Recent IT graduate with a passion for building scalable and efficient software systems. 
+                    Strond analytical and problem solving skills, with the ability to work independently or as part of a team. 
+                    Eager to learn and grow in the field of software engineering.
+                </p>
+                <button type="submit" target="Contact" class="lets_talk"><a href="#Contact">Let's Talk</a></button>
             </div>
             
             <section class="cv">
@@ -46,7 +50,7 @@
                         <img src="./images/AkramQasem.png"  alt="">
                     </div>
                     <h3 class="cv_name">Akram Qasem</h3>
-                    <h3 class="cv_job">Full-Stack devloper</h3>
+                    <h3 class="cv_job">Software Engineer</h3>
                 </div>
                 <div class="cv_desc">
                     <div class="cv_info">
@@ -145,10 +149,10 @@
             <div class="cards">
                <a href="#">
                 <div class="card">
-                    <img src="./images/POS.png" alt="" class="card_img">
+                    <img src="./images/Ranarose.png" alt="" class="card_img">
                     <div class="card_info">
-                        <h3 class="card_name">POS System</h3>
-                        <p class="card_desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ea error odio neque vero dolor illum fugiat alias quibusdam, animi aut pariatur similique delectus sint placeat exercitationem! Amet, temporibus explicabo. Project by html,css and js with  django framework this project is a system of stores and sales management.</p>
+                        <h3 class="card_name">Rana Rose</h3>
+                        <p class="card_desc">A simple E-Commerce Project build backend and API by Django and front-end by Angular Framework</p>
                        
                     </div>
                     
@@ -156,10 +160,10 @@
                </a>
                <a href="#">
                 <div class="card">
-                    <img src="./images/POS.png" alt="" class="card_img">
+                    <img src="./images/WTA_POS.png" alt="" class="card_img">
                     <div class="card_info">
-                        <h3 class="card_name">POS System</h3>
-                        <p class="card_desc">Project by html,css and js with  django framework this project is a system of stores and sales management.</p>
+                        <h3 class="card_name">WTA POS</h3>
+                        <p class="card_desc"> A simple POS sytsem by html,css and js with  django framework this project is a system of stores and sales management.</p>
                        
                     </div>
                     
@@ -169,37 +173,51 @@
         </section>
 
         <section id="Contact" class="Contact section-bg">
-            <h2 class="heading">Contact <span>me!</span></h2>
+            <h2 class="heading"> Let’s Work <br/>
+                Together!</h2>
             <form action="#" class="Contact_form">
-                <input type="text" name="" id="">
-                <input type="text" name="" id="">
-                <input type="email" name="" id="">
-                <input type="tel" name="" id="">
-                <input type="text" name="desc" id="desc">
+                <input type="text" name="name" id="name" placeholder="Full Name" required>
+                <input
+                type="tel"
+                class="contact__input"
+                placeholder="Phone No."
+                name="tel"
+                required
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              />
+              <input
+              class="contact__input contact__textarea"
+              name="desc"
+              id="desc"
+              placeholder="Your Message"
+              rows="1"
+              required
+            ></input>
                 <button type="submit" class="Contact_send">Send</button>
             </form>
         </section>
 
         <footer class="footer section">
             <div class="logo">
-                <h3 class="">AkramQasem</h3>
+                <h3 class=""><img src="images/logo.png" width="36" alt="Ak logo">ramQasem</h3>
                 <hr class="line">
             </div>
             
             <div class="footer_bio">
-                <p>I always strive to develop my skills, increase my experience, and Up to Date with Everything in my work</p>
+                <p>I always strive to develop my skills, and Eager to learn and grow in the field of software engineering.</p>
             </div>
             <div class="footer_contact">
-                <p class="phone"><span><i></i></span>|00967773021448</p>
+               <a href="http://wa.me/967773021448" class="phone" target="_blank" rel="whatsapp contact"><img src="style/icon/whatsapp.svg" width="24" alt=""><span>|00967773021448</span></a>
             </div>
             <div class="social_media">
-                <a href="#"><img class="svgg" src="./style/icon/linkedin.svg" alt=""></a>
-                <a href="#"><img src="./style/icon/twitter.svg" alt=""></a>
-                <a href="#"><img src="./style/icon/facebook.svg" alt=""></a>
+                <a href="https://github.com/akfaqih3" target="_blank"><img src="./style/icon/github.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/akram-qasem-472876251/" target="_blank"><img src="./style/icon/linkedin.svg" alt=""></a>
+                <a href="https://x.com/akfaqih3" target="_blank"><img src="./style/icon/twitter.svg" ></a>
+                
             </div>
         
             <div class="copyright">
-                <p>2024 copyright by <span>Akram Qasem</span></p>
+                <p>©2024 copyright by <span>Akram Qasem</span></p>
             </div>
         </footer>
    </div>
