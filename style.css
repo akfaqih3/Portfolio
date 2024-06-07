@@ -685,6 +685,7 @@ font-family: 'Courier New', Courier, monospace;
     .Bio_content{
         justify-self: center;
         align-self: center;
+        width: 100%;
     }
     .cv_desc, .Bio_heading{
         display: none;
