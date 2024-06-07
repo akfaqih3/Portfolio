@@ -140,13 +140,15 @@ font-family: 'Courier New', Courier, monospace;
     box-shadow: 0 0.5rem 0.5rem #00000049;
 }
 .navigation{
-    width: 70%;
+    width: 100%;
 }
 .navigation_list{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
+    gap: 2rem;
     align-items: center;
     font-size: 1.5rem;
+    width: 90%;
 }
 
 .navigation_item:hover{
@@ -156,6 +158,10 @@ font-family: 'Courier New', Courier, monospace;
 
 .logo{
     font-weight: bold;
+    font-size: 1.8rem;
+}
+.logo span{
+    color: var(--color-second);
 }
 
 /*toggle */
@@ -180,7 +186,6 @@ font-family: 'Courier New', Courier, monospace;
     box-shadow: 0px 1px 1px rgba(176, 207, 23, 0.169), 0px 0px 1px 1px rgba(176, 207, 23, 0.169);;
     justify-self: center;
     width: 100%;
-    height: 100%;
 }
 
 .Bio::after{
@@ -197,7 +202,7 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 .Bio_data{
-    height: 100%;
+    height: 500px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -219,6 +224,7 @@ font-family: 'Courier New', Courier, monospace;
 
 .Bio_content{
     width: 75%;
+    overflow: hidden;
     align-self: flex-start;
     opacity: 0.6;
     font-family: 'Courier New', Courier, monospace;
@@ -458,6 +464,8 @@ font-family: 'Courier New', Courier, monospace;
 
 .card_img{
     width: 100%;
+    height: 170px;
+    object-fit: cover;
     border-radius: 0.4rem;
 }
 
@@ -561,6 +569,10 @@ font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 1rem;
 }
+.footer_contact .phone{
+    display: flex;
+    align-items: center;
+}
 
 .social_media{
     display: flex;
@@ -576,6 +588,8 @@ font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
+    padding: 0.4rem 0 0 0;
 }
 
 .copyright::before{
@@ -661,10 +675,13 @@ font-family: 'Courier New', Courier, monospace;
     }
 
     .Bio_data{
-        height: auto;
+        height: 200px;
         width: 100%;
     }
 
+    .lets_talk{
+        margin-top:1.5rem;
+    }
     .Bio_content{
         justify-self: center;
         align-self: center;
