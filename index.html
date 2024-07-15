@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akram Qasem</title>
     <link rel="stylesheet" href="style.css">
-
+    <script>
+        function close_nav(e){
+            checkbox = document.getElementById('toggle_input');
+            if(checkbox.checked){
+                checkbox.checked=false;
+            }
+        }
+    </script>
 </head>
 <body>
    
@@ -21,12 +28,12 @@
               </label>
                 <input type="checkbox"  name="toggle_input" id="toggle_input" class="toggle_input">
 
-            <nav class="navigation">
+            <nav class="navigation" id="navigation">
                 <ul class="navigation_list">
-                    <li class="navigation_item"><a href="#Bio" class="navigation_link">Bio</a></li>
-                    <li class="navigation_item"><a href="#Skills" class="navigation_link">Skills</a></li>
-                    <li class="navigation_item"><a href="#Projects" class="navigation_link">Projects</a></li>
-                    <li class="navigation_item"><a href="#Contact" class="navigation_link">Contact</a></li>
+                    <li class="navigation_item" ><a href="#Bio" class="navigation_link" onclick="close_nav(this)">Bio</a></li>
+                    <li class="navigation_item" ><a href="#Skills" class="navigation_link" onclick="close_nav(this)">Skills</a></li>
+                    <li class="navigation_item" ><a href="#Projects" class="navigation_link" onclick="close_nav(this)">Projects</a></li>
+                    <li class="navigation_item" ><a href="#Contact" class="navigation_link" onclick="close_nav(this)">Contact</a></li>
                 </ul>
             </nav>
             
